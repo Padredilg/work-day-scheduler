@@ -4,9 +4,9 @@ setInterval(function(){
     $("#currentDay").text(currTime);
 },1000); 
 
-//re-color rows every 10 min
+//reload app every 10 min so colors get updated
 setTimeout(function(){
-    colorRows();
+    location.reload();
  }, 1000 * 60 * 10); //1000ms*60*10 === 1s*60*10 === 60s*10 === 1min*10 === 10min  
 
 //assign colors to textareas depending on time of day
