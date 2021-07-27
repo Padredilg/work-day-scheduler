@@ -20,11 +20,17 @@ textarea{
 }
 
 .jumbotron {
+  font-family:'Fredericka the Great';
   text-align: center;
-  background-color: transparent;
-  color: black;
+  background-color: rgba(0, 0, 50, 1);
+  color: white;
   border-radius: 0;
   border-bottom: 10px solid black;
+}
+
+#currentDay {
+  font-size: 2.1rem;
+  font-family: 'Alata';
 }
 
 .description{
@@ -34,6 +40,7 @@ textarea{
 .time-block{
   text-align: center;
   border-radius: 15px;
+  margin: 0 auto 2% auto;
 }
 
 .row {
@@ -50,7 +57,7 @@ textarea{
 
 .past {
   background-color: #d3d3d3;
-  color: white;
+  color: black;
 }
 
 .present {
@@ -74,4 +81,13 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+.lead{
+  font-size: 1.3rem;
+}
+@media (min-width: 576px){
+  .jumbotron {
+      padding: 3rem 2rem 0rem 2rem;
+  }
 }
