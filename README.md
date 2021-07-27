@@ -12,11 +12,11 @@ An app for you to write down all tasks that you need to accomplish at work and k
 :heavy_check_mark: jQuery</br>
 :heavy_check_mark: Bootstrap
 
-<!-- ## :desktop_computer: Website
-Link to Website: https://padredilg.github.io/taskmaster-pro/
+## :desktop_computer: Website
+Link to Website: https://padredilg.github.io/work-day-scheduler/
 </br></br>
 Screenshot from Website:
-![screenshot of website](./assets/images/.png)
+<!-- ![screenshot of website](./assets/images/.png)
 ![screenshot of website](./assets/images/.png) -->
 
 ## :clap: Credits
