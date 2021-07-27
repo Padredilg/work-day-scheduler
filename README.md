@@ -3,7 +3,7 @@
 # Work Day Scheduler :pencil:
 
 ## :label: Description
-An app for you to write down all tasks that you need to accomplish at work and keep track of them as they aproach their deadlines.
+Write down your daily work tasks and keep track of them as they aproach their deadlines.
 
 ## 	:hash: Built With
 :heavy_check_mark: HTML</br>
@@ -16,8 +16,7 @@ An app for you to write down all tasks that you need to accomplish at work and k
 Link to Website: https://padredilg.github.io/work-day-scheduler/
 </br></br>
 Screenshot from Website:
-<!-- ![screenshot of website](./assets/images/.png)
-![screenshot of website](./assets/images/.png) -->
+![screenshot of website](./images/work-day-scheduler.png)
 
 ## :clap: Credits
 
