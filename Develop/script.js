@@ -14,22 +14,21 @@ setTimeout(function(){
 //assign colors to textareas depending on time of day
 var colorRows = function(){
     var presentHour = moment().hour();
-    console.log(presentHour);
 
-    $(".row").each(function(){
-        var rowHour = $(this).attr("id");
-        console.log((this).id)
+    $(".hour").each(function(){
+        var rowHour = parseInt($(this).attr("id"));
         
         if(rowHour < presentHour){
-            $(this).addClass("past");
+            $(this).siblings(".description").addClass("past");
         }
         else if(rowHour == presentHour){
-            $(this).removeClass("past");
-            $(this).addClass("present");
+            $(this).siblings(".description").removeClass("past");
+            $(this).siblings(".description").addClass("present");
         }
         else{
-            $(this).removeClass("present");
-            $(this).addClass("future");
+            $(this).siblings(".description").removeClass("past");
+            $(this).siblings(".description").removeClass("present");
+            $(this).siblings(".description").addClass("future");
         }
     })
 };
