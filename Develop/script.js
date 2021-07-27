@@ -19,10 +19,13 @@ var colorRows = function(){
         var rowHour = parseInt($(this).attr("id"));
         
         if(rowHour < presentHour){
+            $(this).siblings(".description").removeClass("present");
+            $(this).siblings(".description").removeClass("future");
             $(this).siblings(".description").addClass("past");
         }
         else if(rowHour == presentHour){
             $(this).siblings(".description").removeClass("past");
+            $(this).siblings(".description").removeClass("future");
             $(this).siblings(".description").addClass("present");
         }
         else{
